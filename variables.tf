@@ -32,10 +32,10 @@ variable "preferred_number_of_private_subnets" {
   description = "Number of private subnets"
 }
 
-variable "name" {
-  type        = string
-  description = "ACS"
-}
+# variable "name" {
+#   type        = string
+#   description = "ACS"
+# }
 
 variable "tags" {
   description = "A mapping of tags assigned to all resources"
@@ -68,10 +68,10 @@ variable "ami-sonar" {
   description = "AMI ID for the launch template"
 }
 
-variable "ami" {
-  type        = string
-  description = "AMI ID for the launch template"
-}
+# variable "ami" {
+#   type        = string
+#   description = "AMI ID for the launch template"
+# }
 
 variable "keypair" {
   type        = string
