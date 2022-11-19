@@ -45,7 +45,7 @@ variable "tags" {
 
 variable "environment" {
   type = string
-  description = environment
+  description = "environment"
 }
 
 variable "ami-bastion" {
