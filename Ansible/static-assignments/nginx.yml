@@ -1,4 +1,5 @@
 ---
 - hosts: tag_Name_ACS_nginx
   become: true
-  roles: nginx
+  roles: 
+    - role: nginx
